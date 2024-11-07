@@ -1,18 +1,20 @@
-<style>
 body {
     background-color: rgba(255, 206, 146, 0.712);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #ffe8d6;
-    border: thin solid black;
+    border-bottom: thin solid black;
 }
 
 header .logo {
-    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -20,16 +22,13 @@ header nav a {
     margin: 0 10px;
     text-decoration: none;
     color: #333;
-    font-family:Arial, Helvetica, sans-serif;
 }
-a:link{
-  text-decoration: none;
-}
+
 a:hover {
-  color: #979797;
-  cursor: pointer;
-  text-decoration-line:underline;
+    color: #979797;
+    text-decoration: underline;
 }
+
 .contingutprincipal {
     display: flex;
     align-items: center;
@@ -37,35 +36,37 @@ a:hover {
     padding: 50px 20px;
     background-color: #eaeae0;
 }
+
 .continguttext {
     text-align: left;
-    padding: 50px 20px;
+    padding: 20px;
     background-color: #ffc783;
+    border-radius: 8px;
 }
+
 .continguttext h1 {
     font-size: 36px;
     font-weight: bold;
     margin: 10px 0;
-    
 }
+
 .continguttext h2 {
     font-size: 24px;
     color: #666;
     margin: 0;
 }
-.imatgeprincipal {
-    width: 100px;
-    height: 100px;
-    background-color: #d9a384;
-    margin: 20px auto;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 24px;
+
+.categoria {
+    color: #666;
+    font-weight: bold;
 }
-.boto {
+
+.imatgeprincipal img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.botoboto {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -74,6 +75,9 @@ a:hover {
     color: #d9a384;
     font-weight: bold;
     text-decoration: none;
-
 }
-</style>
+
+.boto:hover {
+    background-color: #d9a384;
+    color: #fff;
+}
