@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receptes</title>
     <meta name="description" content="Explora les últimes i més populars receptes de cuina saludable.">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <header>
         <img class="logo" src="/paginareceta/imagenes/logoipsum-330.png" alt="Logo de la pàgina de receptes">
         <nav>
-            <a href="#">Últimes receptes</a>
-            <a href="#">Més populars</a>
-            <a href="#">Categories</a>
+            <a href="#latest-recipes">Latest Recipes</a>
+            <a href="#popular-recipes">Most Popular Recipes</a>
+            <a href="#categories">Categories</a>
         </nav>
         <img class="icono" src="/paginareceta/imagenes/person_profile_user_icon_208235.jpg" alt="Icono perfil d'usuari" width="30">
     </header>
 
     <main class="contingutprincipal">
         <section class="continguttext">
-            <p class="categoria">Healthy</p>
+            <p class="healthy">Healthy</p>
             <h1>10 Minute Magic</h1>
             <h2>Orange Sauce</h2>
             <a href="#" class="boto">See Recipe</a>
@@ -31,14 +31,28 @@
         </figure>
     </main>
     <nav>
-        <a href="#">View By Category</a>
-        <a href="#">Appetizers</a>
-        <a href="#">Beverages</a>
-        <a href="#">Desserts</a>
-        <a href="#">Healty</a>
+        <a href="#" class="viewcategory:">View By Category</a>
+        <a href="#" class="nav2">Appetizers</a>
+        <a href="#" class="nav2">Beverages</a>
+        <a href="#" class="nav2">Desserts</a>
+        <a href="#" class="nav2">Healty</a>
     </nav>
     <hr>
-    <h2>Latest Recipes</h2> 
+    <section id="latest-recipes">
+        <h2>Latest Recipes</h2> 
+        <div class="receta">
+            <h3>Grantma's Butterscotch Pie</h3>
+            <h5 class="Healthy">Healty</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat viverra diam, ac tempus est faucibus in. Sed cursus ante vel fermentum malesuada. Fusce placerat interdum sem, id porttitor tellus semper vel. Pellentesque fringilla, velit</p>
+            <a href="#" class="ver-receta">See Recipe</a>
+        </div>
+        <div class="receta">
+            <h3>10 Minute Magic Orange Sauce</h3>
+            <h5 class="Healthy">Healty</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat viverra diam, ac tempus est faucibus in. Sed cursus ante vel fermentum malesuada. Fusce placerat interdum sem, id porttitor tellus semper vel. Pellentesque fringilla, velit</p>
+            <a href="#" class="ver-receta">See Recipe</a>
+        </div>
+    </section>
 
 </body>
 </html>
