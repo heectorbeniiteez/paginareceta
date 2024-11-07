@@ -34,7 +34,8 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     padding: 50px 20px;
-    background-color: #eaeae0;
+    background-image: url(https://fishsolutions.pescanova.es/wp-content/uploads/2023/07/shutterstock_225172414-scaled.jpg);
+    background-size: cover;
 }
 
 .continguttext {
@@ -51,7 +52,7 @@ a:hover {
 
 .continguttext h2 {
     font-size: 24px;
-    color: #666;
+    color: #000000;
     margin: 0;
 }
 
@@ -70,16 +71,20 @@ a:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    border: 2px solid #d9a384;
+    border: 2px solid #000000;
     border-radius: 20px;
-    color: #d9a384;
+    color: #232323;
     font-weight: bold;
     text-decoration: none;
 }
 
 .boto:hover {
-    background-color: #d9a384;
-    color: #fff;
+    color: #000000;
+    backdrop-filter: revert(35%);
+}
+
+nav .navcontingut {
+    background-color: white;
 }
 
 nav .viewcategory {
