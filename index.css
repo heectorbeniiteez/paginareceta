@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(255, 206, 146, 0.712);
+    background-color: #ffe8d6;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -32,34 +32,51 @@ a:hover {
 .contingutprincipal {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 50px 20px;
-    background-image: url(https://fishsolutions.pescanova.es/wp-content/uploads/2023/07/shutterstock_225172414-scaled.jpg);
+    background-image: url(https://imag.bonviveur.com/ssobrasada.jpg);
     background-size: cover;
 }
 
 .continguttext {
-    text-align: left;
+    text-align: right;
     padding: 40px;
     border-radius: 20px;
+    text-shadow: 
+        -1px -1px 0 #8f2f09,  
+        1px -1px 0 #8f2f09,
+        -1px  1px 0 #8f2f09,
+        1px  1px 0 #8f2f09;
 }
 
 .continguttext h1 {
     font-size: 36px;
     font-weight: bold;
-    margin: 10px 0;
+    color: #fac87f;
+    text-shadow: 
+        -1px -1px 0 #8f2f09,  
+         1px -1px 0 #8f2f09,
+        -1px  1px 0 #8f2f09,
+         1px  1px 0 #8f2f09;
+    margin: 0;
 }
 
 .continguttext h2 {
     font-size: 24px;
-    color: #000000;
+    color: #fac87f;
+    text-shadow: 
+        -1px -1px 0 #8f2f09,  
+        1px -1px 0 #8f2f09,
+        -1px  1px 0 #8f2f09,
+        1px  1px 0 #8f2f09;
     margin: 0;
 }
 
 .healthy {
-    color: #000000;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    color: #fac87f;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 .imatgeprincipal img {
@@ -71,17 +88,37 @@ a:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    border: 2px solid #000000;
+    border: 2px solid #8f2f09 ;
     border-radius: 20px;
-    color: #232323;
+    color: #fac87f;
     font-weight: bold;
     text-decoration: none;
+    text-shadow: 
+        -1px -1px 0 #8f2f09,  
+        1px -1px 0 #8f2f09,
+        -1px  1px 0 #8f2f09,
+        1px  1px 0 #8f2f09;
 }
 
 .boto:hover {
-    color: #000000;
-    backdrop-filter: revert(35%);
-}
+    color: #fac87f;
+    backdrop-filter: blur(4px);}
+
+.botoreceta {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: 2px solid #000000;
+        border-radius: 20px;
+        color: #000000;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+.botoreceta:hover {
+        color: #000000;
+        backdrop-filter: blur(4px);
+    }
 
 nav .navcontingut {
     background-color: white;
@@ -91,10 +128,87 @@ nav .viewcategory {
     margin: 0 10px;
     color: #5d5d5d;
     text-decoration: none;
+    margin-left: 100px;
+
 }
 nav .nav2 {
     font-weight: bold;
     margin: 0 10px;
     color: #000000;
     text-decoration: none;
+}
+
+div {
+    width: 355px;
+    height: 289px;
+}
+.container {
+    width: 35%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.container h3 {
+    font-size: 24px;
+    height: 5px;
+}
+
+.container2 h3 {
+    font-size: 24px;
+    height: 5px;
+}
+
+.healthy2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 2px;
+}
+
+.descripcio {
+    height: 75px;
+    font-size: 12px;
+}
+
+.botoreceta2 {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 60%;
+}
+
+.container2 {
+    width: 35%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.configfoto {
+    width: 100%;
+    height: 250px;
+    padding: 0px;
+    border: 1px solic #ccc;
+    border-radius: 0px;
+    object-fit: cover;
+}
+
+.configfoto2 {
+    width: 100%;
+    height: 250px;
+    padding: 0px;
+    border: 1px solic #ccc;
+    border-radius: 0px;
+    object-fit: cover;
+}
+
+.latestrecipes {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+}
+
+section2 {
+    display: flex;
+    justify-content:left;
 }
