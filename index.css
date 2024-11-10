@@ -212,3 +212,88 @@ section2 {
     display: flex;
     justify-content:left;
 }
+
+sectionboto {
+    height: 100px;
+}
+
+.suscribete {
+    display: flex;
+    height: 100px;
+    padding: 40px 40px;
+    background-color: #c78c6e;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.contingutsuscribete h2 {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: left;
+    margin: 0;
+    align-items: center;
+    color: #2d2d2d;
+}
+
+.contingutsuscribete p {
+    font-size: 14px;
+    justify-content: left;
+    margin: 5px 0 0;
+    color: #2d2d2d;
+}
+
+.suscribeteform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribeform input[type="email"] {
+    padding: 10px 15px;
+    border: 2px solid #c78c6e;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-size: 1em;
+}
+
+.subscribeform button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: #2d2d2d;
+    cursor: pointer;
+}
+
+.subscribeform input[type="email"],
+.subscribeform button {
+    height: 40px;
+}
+
+.boto2 {
+    display: right;
+    margin-top: center;
+    padding: 5px 30px;
+    border: 1px solid beige;
+    background-color: #c78c6e;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.boto3 {
+    padding: 5px 30px;
+    border: 1px solid beige;
+    border-radius: 20px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: beige;
+}
+
+.boto3:hover {
+    color: #000000;
+}
